@@ -5,6 +5,11 @@
 
             <ChatBullula :meus-est="true" nuntius="¿Salimos luego a dar una vuelta?"/>
 
+            <ChatBullula 
+            :meus-est="false" 
+            nuntius="no" 
+            imago="https://yesno.wtf/assets/yes/1-af11222d8d4af90bdab8fc447c8cfebf.gif"/>
+
         </div>
     </div>
 </template>

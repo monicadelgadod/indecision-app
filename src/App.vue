@@ -1,23 +1,10 @@
 <template>
-
-   <h1> Mi primera app de Vue</h1>
-
-   <h1 class="text-3xl font-bold underline bg-blue-600 p-8 rounded-2xl w-40">
-    Hello world!
-  </h1>
-
-   <MeusNumerator :valorem="7" />
-
-   <MeusNumeratorScript :valorem="10" />
-
-   <MeusNumeratorScript2 :valorem="2"/>
-
+   <IndecisionView/>
 </template>
 
 
 <script lang="ts" setup>
-import MeusNumerator from './components/MeusNumerator.vue';
-import MeusNumeratorScript from './components/MeusNumeratorScript.vue';
-import MeusNumeratorScript2 from './components/meus-numerator-script/MeusNumeratorScript2.vue';
+import IndecisionView from './views/IndecisionView.vue';
+
 </script>
 

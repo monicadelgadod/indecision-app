@@ -26,7 +26,7 @@ export const useChat = () => {
             nuntius: textus,
             meusEst: true,
         });
-    }
+    
 
         await somnum(1.5);
 
@@ -39,10 +39,10 @@ export const useChat = () => {
             meusEst: false,
             imago: image
         });
-    }
+    };
 
     return {
         nuntii,
         cumNovumMuntius
-    }
-}
+    };
+};
